@@ -1,3 +1,4 @@
+README.md
 setup.py
 mlproject.egg-info/PKG-INFO
 mlproject.egg-info/SOURCES.txt
@@ -5,3 +6,13 @@ mlproject.egg-info/dependency_links.txt
 mlproject.egg-info/requires.txt
 mlproject.egg-info/top_level.txt
 src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/__init__.py
+src/components/data_ingestion.py
+src/components/data_transformation.py
+src/components/model_trainer.py
+src/pipepline/__init__.py
+src/pipepline/predict_pipeline.py
+src/pipepline/train_pipeline.py

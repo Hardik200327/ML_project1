@@ -1,0 +1,12 @@
+prefix=c:/Users/Acer/OneDrive/Desktop/mlproject/venv/Library
+exec_prefix=c:/Users/Acer/OneDrive/Desktop/mlproject/venv/Library
+libdir=c:/Users/Acer/OneDrive/Desktop/mlproject/venv/Library/lib
+includedir=c:/Users/Acer/OneDrive/Desktop/mlproject/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
