@@ -24,8 +24,8 @@ class DataTransformation:
             numerical_col =["writing_score","reading_score"]
             categorial_col=["gender",
             "race_ethnicity",
-            "parental_level_of_education",
-            "lunch","test_preparation_course"]
+            "parental_level_of_education","lunch",
+            "test_preparation_course"]
 
             num_pipeline = Pipeline(
                 steps=[

@@ -144,6 +144,8 @@ venv_py311/
 ENV/
 env.bak/
 venv.bak/
+venv_py311/
+artifacts/
 
 
 # Spyder project settings
